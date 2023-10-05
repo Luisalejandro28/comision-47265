@@ -7,7 +7,7 @@ const turnos = (nombreUser, turnoFecha, turnoHora) => {
   const hrFin = 19;
 
   if (turnoHora >= hrInicio && turnoHora <= hrFin) {
-    alert(`${nombreUser} tu turno es para ${turnoFecha} a las ${turnoHora}hrs`);
+    alert(`${nombreUser} tu turno es para el ${turnoFecha} a las ${turnoHora}hrs`);
   } else if (turnoHora < hrInicio || turnoHora > hrFin) {
     alert("Intenta con una hora dentro de nuestro horario");
     alert("nuestro horario es de 9hrs a 19hrs");
